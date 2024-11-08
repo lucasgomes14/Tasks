@@ -34,7 +34,6 @@ class PriorityRepository(val context: Context) {
             override fun onFailure(call: Call<List<PriorityModel>>, t: Throwable) {
                 listener.onFailure(context.getString(R.string.ERROR_UNEXPECTED))
             }
-
         })
     }
 
