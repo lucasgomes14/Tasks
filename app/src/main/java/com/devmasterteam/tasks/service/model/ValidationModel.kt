@@ -7,8 +7,8 @@ class ValidationModel(message: String = "") {
 
     init {
         if (message != "") {
-            status = false
             validationMessage = message
+            status = false
         }
     }
 
